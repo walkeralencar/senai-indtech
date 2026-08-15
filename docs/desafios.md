@@ -15,28 +15,47 @@ area: Transformação digital
 
 ## Geolab Indústria Farmacêutica S/A
 
-> [!info] Origem
-> Transcrição estruturada a partir do material do desafio industrial fornecido pela Geolab.
+> [!info] Fontes
+> Síntese estruturada a partir do material original do desafio e do depoimento complementar de Luciano Almeida, gestor de tecnologia da Geolab.
+>
+> - [[fontes/transcricao-luciano-almeida|Depoimento de Luciano Almeida]]
 
 ### Tema
 
-**Digitalização de processos no backoffice.**
+**Digitalização de processos no backoffice com retorno econômico e adoção interna.**
 
-### Descrição
+### Descrição consolidada
 
-A empresa deseja digitalizar os processos em que ainda existem muito papel e fluxo burocrático com uso de controles fora do ERP principal, que é muito bom.
+A Geolab já possui elevada maturidade tecnológica em sua operação industrial, com equipamentos modernos empregados na produção de medicamentos. A lacuna de digitalização não é generalizada: ela está concentrada em alguns setores e processos de backoffice que ainda dependem de papel, fluxos burocráticos ou formas tradicionais de trabalho.
 
-A problemática está vinculada ao grupo diretor da empresa que gosta do papel e não tem uma diretriz clara e que dê autonomia com os devidos investimentos para poder evoluir com a digitalização e automação de vários processos que poderiam inclusive ter apoio de inteligência artificial em seu desenvolvimento.
+A introdução de soluções de automação ou novos módulos de sistemas envolve custos de licenciamento, aquisição e implantação. Como a empresa já suporta outros custos tecnológicos, novos investimentos precisam apresentar retorno claro e atraente para donos e diretores.
 
-Envolve um misto de área de TI subordinada à área financeira que visa redução de custo e cultura ausente de inovação nos setores.
+Além da viabilidade econômica, existe um desafio de adoção. Parte do público interno resiste a mudanças e prefere manter a forma atual de trabalho. Portanto, a digitalização depende tanto da tecnologia adequada quanto de transformação cultural, participação das áreas e percepção de benefício no cotidiano.
+
+O desafio central é encontrar uma solução que simultaneamente:
+
+- torne processos do backoffice mais ágeis, eficientes e eficazes;
+- seja simples e atraente para clientes internos e áreas operacionais;
+- apresente retorno sobre investimento compreensível para a diretoria;
+- tenha custo de implantação e operação compatível com os benefícios;
+- possa ser efetivamente incorporada ao trabalho diário.
 
 ### Área do desafio
 
 **Transformação digital.**
 
-### Qual o impacto atual desse problema para a indústria?
+### Stakeholders explicitamente identificados
 
-- Aumento de custos;
+| Stakeholder | Interesse ou preocupação |
+|---|---|
+| Gestor e equipe de TI | Viabilizar soluções e apoiar a transformação das áreas |
+| Clientes internos | Facilidade de uso, benefício prático e baixa fricção na mudança |
+| Áreas operacionais e de backoffice | Processos mais eficientes sem ruptura desnecessária |
+| Diretoria, donos e investidores internos | Retorno sobre investimento e controle de custos |
+
+### Impactos informados no material do desafio
+
+- aumento de custos;
 - perda de produtividade;
 - retrabalho;
 - desperdício;
@@ -44,71 +63,124 @@ Envolve um misto de área de TI subordinada à área financeira que visa reduç�
 - dificuldade de gestão;
 - perda de competitividade.
 
-### Caso exista alguma solução atual, descreva brevemente
+> [!note] Evidência pendente
+> Os impactos foram informados qualitativamente. Ainda não há baseline quantitativo de custo, tempo, volume de papel, retrabalho ou produtividade.
 
-A equipe de TI busca ativamente caminhos para mudar o entendimento dos setores e da alta gestão para poder avançar com a transformação e adoção de tecnologia.
+### Situação atual
 
-### O que a indústria espera como possível solução?
+- A Geolab utiliza tecnologia moderna na produção.
+- Alguns setores de backoffice ainda utilizam bastante papel.
+- Há resistência interna à mudança de processos e ferramentas.
+- Novas soluções precisam competir por orçamento com outros custos tecnológicos.
+- Automação, módulos de sistemas e módulos do ERP são caminhos considerados.
+- A TI atua como facilitadora para potencializar ideias das áreas.
 
-- Adoção do ERP em processos que ainda estão rodando por fora;
-- aplicação de automatização em processos repetitivos;
-- adoção de aplicativos móveis para aprovações da alta gestão;
-- melhoria operacional;
-- aumento da eficiência.
+### Resultado esperado
+
+Uma abordagem progressiva de digitalização que demonstre valor em um processo real de backoffice, equilibre experiência do usuário e retorno financeiro e gere evidências para ampliar a transformação.
 
 ---
 
-## Leitura inicial do problema
+## Leitura estratégica
 
 > [!warning] Interpretação
-> Esta seção é análise inicial e **não faz parte da transcrição original**.
+> Esta seção é análise do projeto e não deve ser tratada como declaração literal da Geolab.
 
-O desafio aparenta combinar quatro dimensões principais:
+O desafio combina cinco dimensões:
 
-1. **Processos:** fluxos burocráticos e dependência de papel.
-2. **Integração:** controles paralelos ao ERP.
-3. **Governança:** falta de diretriz clara, autonomia e investimento.
-4. **Cultura:** resistência à digitalização e baixa maturidade de inovação.
+1. **Valor econômico:** justificar aquisição, licenciamento, implantação e operação.
+2. **Processos:** reduzir papel, burocracia, espera e retrabalho.
+3. **Adoção:** tornar a solução útil e simples para o cliente interno.
+4. **Cultura:** apoiar a mudança da forma de trabalhar.
+5. **Tecnologia e integração:** aproveitar sistemas existentes antes de adicionar novas plataformas.
 
-### Linha de solução a investigar
+### Correção de foco
+
+O problema não deve ser reduzido prematuramente a OCR ou gestão documental. O processo prioritário ainda não foi identificado, e diferentes fluxos podem exigir soluções distintas.
+
+O caminho de solução deve seguir:
 
 ```text
-Documento/Papel
-      ↓
-Captura digital
-      ↓
-OCR / extração estruturada
-      ↓
-Workflow e regras
-      ↓
-Aprovação digital/mobile
-      ↓
-Integração com ERP
-      ↓
-Auditoria + indicadores
+Selecionar processo real
+        ↓
+Medir baseline
+        ↓
+Identificar gargalo e comportamento
+        ↓
+Comparar alternativas
+        ↓
+Prototipar o menor fluxo viável
+        ↓
+Medir valor + adoção
+        ↓
+Definir integração e expansão
 ```
+
+### Princípios para a solução
+
+- Priorizar o uso de capacidades já licenciadas ou existentes quando forem adequadas.
+- Avaliar automação determinística antes de aplicar IA.
+- Usar IA somente onde houver valor mensurável.
+- Evitar substituir o ERP sem necessidade comprovada.
+- Minimizar custos recorrentes e dependência de fornecedor.
+- Projetar aprovação e operação para dispositivos adequados ao usuário.
+- Incluir adoção e mudança cultural como parte do MVP, não como atividade posterior.
+- Demonstrar retorno em linguagem executiva.
 
 ### Hipóteses iniciais
 
-- O ERP existente deve permanecer como sistema principal de registro sempre que possível.
-- Uma camada de workflow/orquestração pode reduzir processos paralelos sem exigir substituição do ERP.
-- IA pode ser aplicada na classificação, extração, validação e roteamento de documentos/processos.
-- O MVP deve demonstrar ganho mensurável em pelo menos um fluxo real de backoffice.
+- Um único processo de backoffice pode servir como prova de valor para expansão posterior.
+- O ganho percebido pelo usuário interno influencia diretamente a adoção.
+- O aproveitamento de ferramentas existentes pode tornar o ROI mais atraente.
+- Uma camada leve de workflow pode ser útil, mas isso depende do processo e das capacidades do ERP.
+- IA pode ajudar em classificação, extração, validação, resumo ou roteamento, desde que o caso escolhido exija essas capacidades.
 
 ### Métricas candidatas
 
-- tempo médio do processo;
-- tempo médio de aprovação;
+#### Eficiência operacional
+
+- tempo total do processo;
+- tempo de espera para aprovação;
 - quantidade de etapas manuais;
-- número de controles externos ao ERP;
-- volume de papel eliminado;
 - taxa de retrabalho;
-- custo operacional por processo;
+- custo operacional por ocorrência;
+- volume de papel eliminado;
 - percentual de processos rastreáveis ponta a ponta.
+
+#### Retorno econômico
+
+- custo de implantação;
+- custo recorrente;
+- economia mensal estimada;
+- prazo de retorno do investimento;
+- custo evitado com ferramentas ou integrações adicionais.
+
+#### Adoção
+
+- percentual de usuários ativos;
+- taxa de conclusão sem suporte;
+- tempo de treinamento;
+- satisfação do usuário interno;
+- percentual de processos que retornam ao fluxo manual;
+- número de exceções e contornos externos ao sistema.
+
+## Lacunas críticas
+
+Antes de definir o MVP, é necessário descobrir:
+
+1. quais processos de backoffice concentram maior dor e volume;
+2. quem inicia, executa, aprova e audita cada processo;
+3. qual ERP e quais ferramentas já estão disponíveis;
+4. quais custos e tempos formam o baseline;
+5. quais requisitos farmacêuticos, regulatórios e de segurança se aplicam;
+6. quais usuários podem validar o protótipo;
+7. qual investimento ou prazo de retorno seria considerado atraente;
+8. quais critérios e restrições pertencem ao hackathon.
 
 ## Relacionamentos
 
 - [[index|Índice do projeto]]
+- [[fontes/transcricao-luciano-almeida|Depoimento de Luciano Almeida]]
 - [[decisoes/README|Decisões]]
 - [[../tasks/README|Backlog]]
 - [[../prompts/README|Prompts]]
