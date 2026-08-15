@@ -18,8 +18,10 @@ status: ativo
 - [x] Consolidar o [[../docs/mrd|MRD canônico]] separando fatos, hipóteses, evidências e lacunas.
 - [ ] Validar o MRD com a equipe e um representante da Geolab.
 - [ ] Identificar stakeholders: TI, clientes internos, áreas operacionais, diretoria e donos.
-- [ ] Levantar pelo menos três processos candidatos de backoffice.
-- [ ] Comparar processos por dor, volume, custo, demonstrabilidade, adoção e dependência de integração.
+- [x] Levantar pelo menos três processos candidatos de backoffice na [[../docs/consolidacao-etapa-01|Consolidação da Etapa 01]].
+- [ ] Validar e pontuar os processos candidatos por dor, volume, custo, demonstrabilidade, adoção e integração.
+- [ ] Confirmar o significado do ciclo de 8–14 meses e separar fluxo operacional de desenvolvimento de genérico.
+- [ ] Validar a fonte dos baselines de tempo e custo e corrigir a divergência dos R$ 10 milhões.
 - [ ] Selecionar um único processo para o MVP.
 - [ ] Mapear o fluxo atual (*as-is*) do processo selecionado.
 - [ ] Definir baseline operacional, econômico e de adoção.
@@ -68,5 +70,6 @@ Ao iniciar uma tarefa relevante, transforme o item em uma unidade de trabalho ve
 - [[../docs/index|Índice do projeto]]
 - [[../docs/desafios|Desafio Geolab]]
 - [[../docs/mrd|MRD canônico]]
+- [[../docs/consolidacao-etapa-01|Consolidação da Etapa 01]]
 - [[../docs/fontes/transcricao-luciano-almeida|Fonte — Luciano Almeida]]
 - [[../docs/decisoes/README|Decisões]]
