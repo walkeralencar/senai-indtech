@@ -15,6 +15,9 @@ Este repositório adota uma abordagem **agentic-first**: contexto, decisões, ta
 ├── docs/
 │   ├── index.md               # Índice navegável para Obsidian
 │   ├── desafios.md            # Desafios industriais transcritos e estruturados
+│   ├── mrd.md                 # MRD canônico
+│   ├── consolidacao-etapa-01.md # Consolidação dos artefatos da etapa
+│   ├── fontes/                # Evidências e insumos preservados
 │   └── decisoes/
 │       └── README.md          # Registro de decisões
 ├── prompts/
@@ -27,6 +30,8 @@ Este repositório adota uma abordagem **agentic-first**: contexto, decisões, ta
 
 - [[docs/index|Índice do projeto]]
 - [[docs/desafios|Desafios industriais]]
+- [[docs/mrd|MRD canônico]]
+- [[docs/consolidacao-etapa-01|Consolidação da Etapa 01]]
 - [[docs/decisoes/README|Decisões]]
 - [[tasks/README|Backlog]]
 - [[prompts/README|Prompts]]
