@@ -14,44 +14,46 @@ status: ativo
 ## Contexto principal
 
 - [[desafios|Desafio Geolab]]
-- [[mrd-preliminar|MRD preliminar]]
+- [[mrd|MRD canônico]]
 - [[fontes/transcricao-luciano-almeida|Fonte — depoimento de Luciano Almeida]]
+- [[fontes/mrd-utilizado-original|Fonte — MRD recebido]]
 - [[decisoes/README|Registro de decisões]]
 - [[../tasks/README|Backlog e tarefas]]
 - [[../prompts/README|Prompts reutilizáveis]]
 
 ## Estado atual
 
-O repositório está na fase de **descoberta e estruturação do problema**. As informações da transcrição foram consolidadas em um MRD preliminar, ainda sujeito a validação.
+O repositório está na fase de **descoberta e validação do problema**. O MRD utilizado pela equipe foi confrontado com a transcrição e consolidado no [[mrd|MRD canônico]].
 
-O desafio da Geolab é digitalizar processos de backoffice conciliando três resultados:
+O desafio da Geolab é digitalizar processos de backoffice conciliando:
 
 1. eficiência operacional;
 2. adoção pelo cliente interno;
-3. retorno sobre investimento atrativo para a diretoria.
+3. retorno sobre investimento atrativo para a diretoria;
+4. uso coerente do SAP e das ferramentas existentes.
 
-A empresa já possui forte adoção tecnológica na produção. O recorte do MVP deve se concentrar em um processo de backoffice ainda não selecionado.
+O MRD está ativo como referência, mas ainda não passou pelo gate de validação necessário para produzir o PRD. Falta selecionar um processo específico, mapear o fluxo atual e estabelecer baseline.
 
 ## Fluxo de trabalho agentic-first
 
 ```mermaid
 flowchart LR
-    A[Contexto] --> B[Hipóteses]
-    B --> C[Decisões]
-    C --> D[Tarefas]
-    D --> E[Implementação]
-    E --> F[Validação]
-    F --> A
+    A[Contexto] --> B[MRD]
+    B --> C[Validação]
+    C --> D[PRD]
+    D --> E[MVP]
+    E --> F[FRD]
+    F --> G[Execução]
 ```
 
 ## Próximas áreas a estruturar
 
 - critérios e restrições do hackathon;
-- validação do MRD;
-- stakeholders e usuários;
 - processos candidatos;
+- stakeholders e usuários do processo;
 - baseline operacional e econômico;
+- inventário do ambiente SAP;
 - critérios de adoção;
-- arquitetura somente após seleção do MVP;
+- seleção e validação do MVP;
 - riscos, segurança e conformidade;
 - narrativa e demonstração.
