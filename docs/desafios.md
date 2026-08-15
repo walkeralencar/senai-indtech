@@ -72,7 +72,8 @@ O desafio central é encontrar uma solução que simultaneamente:
 - Alguns setores de backoffice ainda utilizam bastante papel.
 - Há resistência interna à mudança de processos e ferramentas.
 - Novas soluções precisam competir por orçamento com outros custos tecnológicos.
-- Automação, módulos de sistemas e módulos do ERP são caminhos considerados.
+- O ERP utilizado é o **SAP**.
+- Automação, módulos de sistemas e módulos do SAP são caminhos considerados.
 - A TI atua como facilitadora para potencializar ideias das áreas.
 
 ### Resultado esperado
@@ -121,7 +122,8 @@ Definir integração e expansão
 - Priorizar o uso de capacidades já licenciadas ou existentes quando forem adequadas.
 - Avaliar automação determinística antes de aplicar IA.
 - Usar IA somente onde houver valor mensurável.
-- Evitar substituir o ERP sem necessidade comprovada.
+- Tratar o SAP como sistema corporativo existente e evitar substituição ou duplicação sem necessidade comprovada.
+- Verificar primeiro módulos, extensões, APIs e licenças SAP disponíveis antes de propor nova plataforma.
 - Minimizar custos recorrentes e dependência de fornecedor.
 - Projetar aprovação e operação para dispositivos adequados ao usuário.
 - Incluir adoção e mudança cultural como parte do MVP, não como atividade posterior.
@@ -132,7 +134,7 @@ Definir integração e expansão
 - Um único processo de backoffice pode servir como prova de valor para expansão posterior.
 - O ganho percebido pelo usuário interno influencia diretamente a adoção.
 - O aproveitamento de ferramentas existentes pode tornar o ROI mais atraente.
-- Uma camada leve de workflow pode ser útil, mas isso depende do processo e das capacidades do ERP.
+- Uma camada leve de workflow pode ser útil, mas isso depende do processo, da versão e das capacidades disponíveis no ambiente SAP.
 - IA pode ajudar em classificação, extração, validação, resumo ou roteamento, desde que o caso escolhido exija essas capacidades.
 
 ### Métricas candidatas
@@ -170,7 +172,7 @@ Antes de definir o MVP, é necessário descobrir:
 
 1. quais processos de backoffice concentram maior dor e volume;
 2. quem inicia, executa, aprova e audita cada processo;
-3. qual ERP e quais ferramentas já estão disponíveis;
+3. qual versão do SAP está em uso, quais módulos, extensões, APIs e licenças estão disponíveis;
 4. quais custos e tempos formam o baseline;
 5. quais requisitos farmacêuticos, regulatórios e de segurança se aplicam;
 6. quais usuários podem validar o protótipo;
