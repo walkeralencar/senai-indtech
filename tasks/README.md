@@ -20,7 +20,8 @@ status: ativo
 - [ ] Identificar stakeholders: TI, clientes internos, áreas operacionais, diretoria e donos.
 - [x] Levantar pelo menos três processos candidatos de backoffice na [[../docs/consolidacao-etapa-01|Consolidação da Etapa 01]].
 - [ ] Validar e pontuar os processos candidatos por dor, volume, custo, demonstrabilidade, adoção e integração.
-- [ ] Confirmar o significado do ciclo de 8–14 meses e separar fluxo operacional de desenvolvimento de genérico.
+- [x] Contextualizar em [[../docs/hipoteses-de-ciclo|Hipóteses de Ciclo]] o desenvolvimento de produto e a produção de lote conhecido.
+- [ ] Confirmar com a Geolab os limites, participantes e baselines das duas hipóteses.
 - [ ] Validar a fonte dos baselines de tempo e custo e corrigir a divergência dos R$ 10 milhões.
 - [ ] Selecionar um único processo para o MVP.
 - [ ] Mapear o fluxo atual (*as-is*) do processo selecionado.
@@ -71,5 +72,6 @@ Ao iniciar uma tarefa relevante, transforme o item em uma unidade de trabalho ve
 - [[../docs/desafios|Desafio Geolab]]
 - [[../docs/mrd|MRD canônico]]
 - [[../docs/consolidacao-etapa-01|Consolidação da Etapa 01]]
+- [[../docs/hipoteses-de-ciclo|Hipóteses de Ciclo]]
 - [[../docs/fontes/transcricao-luciano-almeida|Fonte — Luciano Almeida]]
 - [[../docs/decisoes/README|Decisões]]
