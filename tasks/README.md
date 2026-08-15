@@ -15,7 +15,8 @@ status: ativo
 
 - [ ] Validar com a equipe a síntese do desafio e o [[../docs/fontes/transcricao-luciano-almeida|depoimento de Luciano Almeida]].
 - [ ] Registrar regulamento, prazo, entregáveis e critérios de avaliação do hackathon.
-- [x] Produzir MRD resumido separando fatos, hipóteses, evidências e lacunas.
+- [x] Consolidar o [[../docs/mrd|MRD canônico]] separando fatos, hipóteses, evidências e lacunas.
+- [ ] Validar o MRD com a equipe e um representante da Geolab.
 - [ ] Identificar stakeholders: TI, clientes internos, áreas operacionais, diretoria e donos.
 - [ ] Levantar pelo menos três processos candidatos de backoffice.
 - [ ] Comparar processos por dor, volume, custo, demonstrabilidade, adoção e dependência de integração.
@@ -66,5 +67,6 @@ Ao iniciar uma tarefa relevante, transforme o item em uma unidade de trabalho ve
 
 - [[../docs/index|Índice do projeto]]
 - [[../docs/desafios|Desafio Geolab]]
+- [[../docs/mrd|MRD canônico]]
 - [[../docs/fontes/transcricao-luciano-almeida|Fonte — Luciano Almeida]]
 - [[../docs/decisoes/README|Decisões]]
