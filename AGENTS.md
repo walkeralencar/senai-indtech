@@ -82,4 +82,4 @@ Cada tarefa deve, quando aplicável, conter:
 
 ## Estado atual
 
-O projeto está em fase inicial de descoberta e estruturação do desafio industrial da Geolab. A primeira fonte de contexto está em [[docs/desafios]].
+O projeto está na fase de **descoberta e validação do problema**. O [[docs/mrd|MRD canônico]] é a referência de requisitos de mercado e deve ser lido com a [[docs/consolidacao-etapa-01|Consolidação da Etapa 01]]. O PRD permanece bloqueado até a seleção de um processo, validação do baseline e investigação das capacidades do SAP.
