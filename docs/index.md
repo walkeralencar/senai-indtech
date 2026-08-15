@@ -18,6 +18,7 @@ status: ativo
 - [[consolidacao-etapa-01|Consolidação da Etapa 01]]
 - [[hipoteses-de-ciclo|Hipóteses de Ciclo]]
 - [[design-system|Design System BlueGold Industrial]]
+- [[pitch|Pitch da solução]]
 - [Referência visual HTML](design-system.html)
 - [[fontes/transcricao-luciano-almeida|Fonte — depoimento de Luciano Almeida]]
 - [[fontes/mrd-utilizado-original|Fonte — MRD recebido]]
