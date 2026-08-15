@@ -15,6 +15,7 @@ status: ativo
 
 - [[desafios|Desafio Geolab]]
 - [[mrd|MRD canônico]]
+- [[consolidacao-etapa-01|Consolidação da Etapa 01]]
 - [[fontes/transcricao-luciano-almeida|Fonte — depoimento de Luciano Almeida]]
 - [[fontes/mrd-utilizado-original|Fonte — MRD recebido]]
 - [[decisoes/README|Registro de decisões]]
@@ -32,7 +33,7 @@ O desafio da Geolab é digitalizar processos de backoffice conciliando:
 3. retorno sobre investimento atrativo para a diretoria;
 4. uso coerente do SAP e das ferramentas existentes.
 
-O MRD está ativo como referência, mas ainda não passou pelo gate de validação necessário para produzir o PRD. Falta selecionar um processo específico, mapear o fluxo atual e estabelecer baseline.
+Seis novos artefatos foram preservados e consolidados. Eles introduzem uma visão integrada de sete áreas, candidatos de MVP e estimativas de tempo e custo. O MRD permanece ativo, mas o PRD continua bloqueado: falta validar o significado dos ciclos, selecionar um processo específico, mapear o fluxo atual e confirmar o baseline.
 
 ## Fluxo de trabalho agentic-first
 
@@ -49,7 +50,9 @@ flowchart LR
 ## Próximas áreas a estruturar
 
 - critérios e restrições do hackathon;
-- processos candidatos;
+- validar a separação entre ciclo operacional e desenvolvimento de genérico;
+- confirmar números e fontes de tempo e custo;
+- comparar e selecionar os processos candidatos;
 - stakeholders e usuários do processo;
 - baseline operacional e econômico;
 - inventário do ambiente SAP;
