@@ -15,7 +15,7 @@ status: ativo
 
 - [ ] Validar com a equipe a síntese do desafio e o [[../docs/fontes/transcricao-luciano-almeida|depoimento de Luciano Almeida]].
 - [ ] Registrar regulamento, prazo, entregáveis e critérios de avaliação do hackathon.
-- [ ] Produzir MRD resumido separando fatos, hipóteses, evidências e lacunas.
+- [x] Produzir MRD resumido separando fatos, hipóteses, evidências e lacunas.
 - [ ] Identificar stakeholders: TI, clientes internos, áreas operacionais, diretoria e donos.
 - [ ] Levantar pelo menos três processos candidatos de backoffice.
 - [ ] Comparar processos por dor, volume, custo, demonstrabilidade, adoção e dependência de integração.
@@ -37,9 +37,10 @@ A implementação permanece bloqueada até que existam:
 ## Próximo — desenho da solução
 
 - [ ] Desenhar o fluxo futuro (*to-be*).
-- [ ] Inventariar ERP, licenças e ferramentas já disponíveis.
-- [ ] Identificar pontos de integração com o ERP.
-- [ ] Comparar uso do ERP, automação leve, workflow dedicado e desenvolvimento próprio.
+- [ ] Identificar versão, módulos, integrações, licenças e extensões disponíveis no SAP.
+- [ ] Inventariar as demais ferramentas e licenças já disponíveis.
+- [ ] Identificar pontos de integração com o SAP.
+- [ ] Comparar uso nativo do SAP, extensão SAP, automação leve, workflow dedicado e desenvolvimento próprio.
 - [ ] Avaliar automações determinísticas antes de aplicar IA.
 - [ ] Definir onde IA agrega valor mensurável.
 - [ ] Planejar mecanismo de adoção e mudança cultural.
