@@ -19,6 +19,8 @@ area: Transformação digital
 > Síntese estruturada a partir do material original do desafio e do depoimento complementar de Luciano Almeida, gestor de tecnologia da Geolab.
 >
 > - [[fontes/transcricao-luciano-almeida|Depoimento de Luciano Almeida]]
+> - [[fontes/mrd-utilizado-original|MRD utilizado recebido]]
+> - [[mrd|MRD consolidado]]
 
 ### Tema
 
@@ -182,6 +184,7 @@ Antes de definir o MVP, é necessário descobrir:
 ## Relacionamentos
 
 - [[index|Índice do projeto]]
+- [[mrd|MRD canônico]]
 - [[fontes/transcricao-luciano-almeida|Depoimento de Luciano Almeida]]
 - [[decisoes/README|Decisões]]
 - [[../tasks/README|Backlog]]
