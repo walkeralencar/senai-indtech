@@ -17,7 +17,7 @@ ultima_atualizacao: 2026-08-15
 # MRD — Digitalização do Backoffice Geolab
 
 > [!info] Status e fontes
-> Este é o MRD canônico atualmente adotado no projeto. Foi consolidado a partir do [[fontes/mrd-utilizado-original|MRD recebido]], do [[fontes/transcricao-luciano-almeida|depoimento de Luciano Almeida]] da informação complementar de que o ERP da Geolab é o **SAP** e dos seis artefatos consolidados em [[consolidacao-etapa-01|Consolidação da Etapa 01]].
+> Este é o MRD canônico atualmente adotado no projeto. Foi consolidado a partir do [[fontes/mrd-utilizado-original|MRD recebido]], do [[fontes/transcricao-luciano-almeida|depoimento de Luciano Almeida]], da informação complementar de que o ERP da Geolab é o **SAP** e dos seis artefatos consolidados em [[consolidacao-etapa-01|Consolidação da Etapa 01]].
 >
 > O documento descreve requisitos de mercado. Ele não define ainda produto, MVP ou arquitetura.
 
@@ -32,7 +32,7 @@ A digitalização enfrenta duas barreiras centrais:
 
 O ERP utilizado é o **SAP**. Antes de adquirir ou desenvolver uma nova plataforma, a iniciativa deve avaliar as capacidades, módulos, integrações e licenças já disponíveis no ambiente corporativo.
 
-A oportunidade é digitalizar progressivamente um processo relevante do backoffice, demonstrando ganho operacional, adoção real e retorno econômico antes de expandir. A etapa mais recente introduziu uma visão integrada de até sete áreas e dois contextos distintos — fluxo operacional e desenvolvimento de genérico — que devem permanecer separados até validação.
+A oportunidade é digitalizar progressivamente um processo relevante do backoffice, demonstrando ganho operacional, adoção real e retorno econômico antes de expandir. A etapa mais recente introduziu uma visão integrada de até sete áreas e duas [[hipoteses-de-ciclo|hipóteses de ciclo]]: desenvolvimento de produto e produção de lote conhecido. Elas compartilham necessidades de orquestração, mas possuem objetivos, participantes, prazos, custos e riscos diferentes.
 
 ## 2. Problema
 
@@ -68,8 +68,8 @@ Como digitalizar processos do backoffice da Geolab de forma economicamente justi
 | Qualidade e regulatório participam do processo escolhido | Hipótese plausível, a confirmar |
 | TI possui capacidade interna de integração | Não confirmado |
 | A produção deve servir como prova social | Estratégia possível, não requisito confirmado |
-| Ciclo de 8–14 meses e custo de R$ 1,0–1,4 milhão | Reportado em artefato da etapa; origem primária e definição do ciclo pendentes |
-| Genérico com ciclo de 48 meses e custo de R$ 10 milhões | Reportado em artefato da etapa; composição pendente de validação |
+| Ciclo de 8–14 meses e custo de R$ 1,0–1,4 milhão | Hipótese de produção de lote conhecido; fonte e limites pendentes |
+| Desenvolvimento de produto com ciclo de 48 meses e custo de R$ 10 milhões | Hipótese de desenvolvimento; composição pendente de validação |
 | Redução de cerca de 30% no tempo e 11% no custo | Estimativa matematicamente coerente, ainda não medida |
 | Sete áreas compartilham um fluxo único | Visão de solução, não processo validado |
 
@@ -203,8 +203,9 @@ As premissas abaixo orientam a descoberta, mas não são fatos confirmados:
 
 ### Processo
 
-- O que exatamente representa o ciclo reportado de 8 a 14 meses?
-- Quais etapas pertencem à rotina de produto registrado e quais ao desenvolvimento?
+- A Geolab confirma as hipóteses de desenvolvimento de produto e produção de lote conhecido?
+- O ciclo de 8 a 14 meses corresponde a lote rotineiro, lançamento, transferência ou mudança pós-registro?
+- Quais etapas pertencem a cada hipótese?
 - Quais processos ainda usam papel?
 - Quais apresentam maior volume, demora, retrabalho ou risco?
 - Quem solicita, executa, aprova e audita?
@@ -256,7 +257,7 @@ A [[consolidacao-etapa-01|Consolidação da Etapa 01]] passa a complementar este
 - Business Model Canvas interno;
 - quatro candidatos de MVP;
 - estimativas de ganhos classificadas como não validadas;
-- separação entre fluxo operacional e desenvolvimento de genérico;
+- contextualização das [[hipoteses-de-ciclo|duas hipóteses de ciclo]];
 - riscos de escopo, evidência e consistência financeira.
 
 A cadeia completa de sete áreas é uma **visão de expansão**. O produto mínimo continua limitado a uma passagem de bastão validada.
@@ -291,6 +292,7 @@ Selecionar e comparar ao menos três processos candidatos com base em:
 
 - [[desafios|Desafio Geolab]]
 - [[consolidacao-etapa-01|Consolidação da Etapa 01]]
+- [[hipoteses-de-ciclo|Hipóteses de Ciclo]]
 - [[fontes/transcricao-luciano-almeida|Transcrição de Luciano Almeida]]
 - [[fontes/mrd-utilizado-original|MRD recebido]]
 - [[mrd-preliminar|MRD preliminar substituído]]
