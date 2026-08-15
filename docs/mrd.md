@@ -17,7 +17,7 @@ ultima_atualizacao: 2026-08-15
 # MRD — Digitalização do Backoffice Geolab
 
 > [!info] Status e fontes
-> Este é o MRD canônico atualmente adotado no projeto. Foi consolidado a partir do [[fontes/mrd-utilizado-original|MRD recebido]], do [[fontes/transcricao-luciano-almeida|depoimento de Luciano Almeida]] e da informação complementar de que o ERP da Geolab é o **SAP**.
+> Este é o MRD canônico atualmente adotado no projeto. Foi consolidado a partir do [[fontes/mrd-utilizado-original|MRD recebido]], do [[fontes/transcricao-luciano-almeida|depoimento de Luciano Almeida]] da informação complementar de que o ERP da Geolab é o **SAP** e dos seis artefatos consolidados em [[consolidacao-etapa-01|Consolidação da Etapa 01]].
 >
 > O documento descreve requisitos de mercado. Ele não define ainda produto, MVP ou arquitetura.
 
@@ -32,7 +32,7 @@ A digitalização enfrenta duas barreiras centrais:
 
 O ERP utilizado é o **SAP**. Antes de adquirir ou desenvolver uma nova plataforma, a iniciativa deve avaliar as capacidades, módulos, integrações e licenças já disponíveis no ambiente corporativo.
 
-A oportunidade é digitalizar progressivamente um processo relevante do backoffice, demonstrando ganho operacional, adoção real e retorno econômico antes de expandir.
+A oportunidade é digitalizar progressivamente um processo relevante do backoffice, demonstrando ganho operacional, adoção real e retorno econômico antes de expandir. A etapa mais recente introduziu uma visão integrada de até sete áreas e dois contextos distintos — fluxo operacional e desenvolvimento de genérico — que devem permanecer separados até validação.
 
 ## 2. Problema
 
@@ -68,6 +68,10 @@ Como digitalizar processos do backoffice da Geolab de forma economicamente justi
 | Qualidade e regulatório participam do processo escolhido | Hipótese plausível, a confirmar |
 | TI possui capacidade interna de integração | Não confirmado |
 | A produção deve servir como prova social | Estratégia possível, não requisito confirmado |
+| Ciclo de 8–14 meses e custo de R$ 1,0–1,4 milhão | Reportado em artefato da etapa; origem primária e definição do ciclo pendentes |
+| Genérico com ciclo de 48 meses e custo de R$ 10 milhões | Reportado em artefato da etapa; composição pendente de validação |
+| Redução de cerca de 30% no tempo e 11% no custo | Estimativa matematicamente coerente, ainda não medida |
+| Sete áreas compartilham um fluxo único | Visão de solução, não processo validado |
 
 ## 4. Público e stakeholders
 
@@ -100,7 +104,9 @@ Como digitalizar processos do backoffice da Geolab de forma economicamente justi
 - evitar duplicação de dados, regras e governança;
 - permitir mensuração antes e depois;
 - considerar treinamento, cocriação e acompanhamento da adoção;
-- manter rastreabilidade proporcional ao processo e às obrigações aplicáveis.
+- manter rastreabilidade proporcional ao processo e às obrigações aplicáveis;
+- evitar redigitação e perda de contexto nas passagens entre áreas;
+- separar fabricação, desenvolvimento de produto e análise regulatória.
 
 ## 6. Requisitos de mercado
 
@@ -118,6 +124,7 @@ Como digitalizar processos do backoffice da Geolab de forma economicamente justi
 | MR-10 | Minimizar custo total de propriedade e dependência desnecessária | Alta | Barreira econômica confirmada |
 | MR-11 | Ser operável no cotidiano com dependência de TI compatível com a governança | Média | Hipótese a validar com a área |
 | MR-12 | Usar IA apenas onde superar alternativa determinística em valor mensurável | Média | Princípio do projeto, não exigência da entrevista |
+| MR-13 | Preservar contexto e evitar redigitação nas passagens entre áreas | Alta | Necessidade proposta na Etapa 01; ocorrência real a medir |
 
 ## 7. Alternativas a comparar
 
@@ -178,6 +185,9 @@ Os valores-alvo dependem do processo selecionado e ainda não devem ser inventad
 | Requisito regulatório presumido | Validar obrigações do processo antes da arquitetura |
 | Uso de dados sensíveis no hackathon | Dados sintéticos e controles mínimos |
 | Falta de disponibilidade dos usuários | Validação curta com representante identificado |
+| Mistura entre ciclo operacional e desenvolvimento de genérico | Manter baselines e objetivos separados |
+| Estimativas apresentadas como resultado | Identificar fonte, fórmula e grau de confiança |
+| Escopo de sete áreas no MVP | Usar a cadeia completa somente como visão futura |
 
 ## 10. Premissas de trabalho
 
@@ -193,6 +203,8 @@ As premissas abaixo orientam a descoberta, mas não são fatos confirmados:
 
 ### Processo
 
+- O que exatamente representa o ciclo reportado de 8 a 14 meses?
+- Quais etapas pertencem à rotina de produto registrado e quais ao desenvolvimento?
 - Quais processos ainda usam papel?
 - Quais apresentam maior volume, demora, retrabalho ou risco?
 - Quem solicita, executa, aprova e audita?
@@ -209,6 +221,8 @@ As premissas abaixo orientam a descoberta, mas não são fatos confirmados:
 
 ### Economia
 
+- Qual é a fonte primária dos números de tempo e custo recebidos?
+- Como se distribuem os R$ 10 milhões do genérico? O resumo e a tabela divergem.
 - Existe baseline de custo e tempo?
 - Qual investimento e payback são aceitáveis?
 - Qual custo pode ser evitado?
@@ -234,7 +248,20 @@ As premissas abaixo orientam a descoberta, mas não são fatos confirmados:
 - É exigido protótipo funcional?
 - Haverá acesso a representantes da Geolab?
 
-## 12. Gate de validação do MRD
+## 12. Insumos consolidados da etapa atual
+
+A [[consolidacao-etapa-01|Consolidação da Etapa 01]] passa a complementar este MRD com:
+
+- visão conceitual de compras até produção;
+- Business Model Canvas interno;
+- quatro candidatos de MVP;
+- estimativas de ganhos classificadas como não validadas;
+- separação entre fluxo operacional e desenvolvimento de genérico;
+- riscos de escopo, evidência e consistência financeira.
+
+A cadeia completa de sete áreas é uma **visão de expansão**. O produto mínimo continua limitado a uma passagem de bastão validada.
+
+## 13. Gate de validação do MRD
 
 O MRD estará validado para iniciar o PRD quando houver:
 
@@ -247,7 +274,7 @@ O MRD estará validado para iniciar o PRD quando houver:
 - capacidades relevantes do SAP investigadas;
 - restrições do hackathon registradas.
 
-## 13. Próxima decisão
+## 14. Próxima decisão
 
 Selecionar e comparar ao menos três processos candidatos com base em:
 
@@ -263,6 +290,7 @@ Selecionar e comparar ao menos três processos candidatos com base em:
 ## Relacionamentos
 
 - [[desafios|Desafio Geolab]]
+- [[consolidacao-etapa-01|Consolidação da Etapa 01]]
 - [[fontes/transcricao-luciano-almeida|Transcrição de Luciano Almeida]]
 - [[fontes/mrd-utilizado-original|MRD recebido]]
 - [[mrd-preliminar|MRD preliminar substituído]]
