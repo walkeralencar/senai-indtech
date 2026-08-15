@@ -28,7 +28,7 @@ O obstáculo não é apenas técnico. Novas soluções geram custos de licenciam
 1. benefício operacional perceptível para os usuários;
 2. adoção no trabalho cotidiano;
 3. retorno econômico justificável para donos e diretores;
-4. aproveitamento adequado do ERP e das ferramentas existentes.
+4. aproveitamento adequado do SAP e das ferramentas existentes.
 
 ## 2. Fonte e nível de evidência
 
@@ -40,6 +40,7 @@ O obstáculo não é apenas técnico. Novas soluções geram custos de licenciam
 | Existem resistência interna e dificuldade de mudança | Fato declarado | Depoimento |
 | Novas soluções envolvem licenciamento, aquisição e implantação | Fato declarado | Depoimento |
 | O investimento precisa ser atraente para a diretoria | Fato declarado | Depoimento |
+| O ERP utilizado pela Geolab é o SAP | Fato informado pelo usuário | Informação complementar |
 | Um processo único pode funcionar como prova de valor | Hipótese do projeto | Análise |
 | Workflow, OCR ou IA serão necessários | Hipótese não validada | Análise |
 | O ERP deve ser o sistema principal de registro | Hipótese não validada | Análise |
@@ -58,7 +59,7 @@ Como digitalizar processos de backoffice em uma indústria já tecnológica, red
 | Operacional | Alguns processos ainda dependem de papel e práticas tradicionais |
 | Cultural | Parte do público interno resiste a mudar a forma de trabalhar |
 | Adoção | A tecnologia precisa ser incorporada ao cotidiano |
-| Tecnológica | É necessário escolher entre ERP, módulo, automação ou nova solução |
+| Tecnológica | É necessário avaliar capacidades do SAP antes de escolher entre módulo, automação, extensão ou nova solução |
 | Governança | A diretoria precisa compreender e aprovar o investimento |
 
 ## 4. Público e stakeholders
@@ -118,7 +119,7 @@ Colaboradores das áreas operacionais e administrativas que executam processos d
 | Manter processo atual | Prática existente em áreas resistentes |
 | Automatizar atividades | Caminho citado, ainda sem caso específico |
 | Implantar módulo de sistema | Caminho possível |
-| Implantar ou ampliar módulo do ERP | Caminho possível |
+| Implantar, ampliar ou integrar módulo do SAP | Caminho possível; versão e módulos disponíveis ainda não identificados |
 | Adotar nova ferramenta | Possível, mas adiciona custos e risco de adoção |
 
 Não há informação suficiente para concluir qual alternativa é melhor.
@@ -184,7 +185,7 @@ A solução candidata deve:
 3. apresentar ganho operacional mensurável;
 4. exigir pouco treinamento;
 5. minimizar custos adicionais;
-6. considerar integração com o ambiente existente;
+6. considerar integração com o SAP e o ambiente existente;
 7. oferecer rastreabilidade;
 8. demonstrar caminho de expansão;
 9. justificar claramente onde automação ou IA agrega valor;
@@ -199,7 +200,7 @@ A solução candidata deve:
 | Assumir OCR ou IA como obrigatórios | Complexidade sem retorno |
 | Ignorar adoção | Protótipo tecnicamente bom, mas rejeitado |
 | Não medir baseline | Impossibilidade de demonstrar ganho |
-| Criar nova plataforma sem avaliar o ERP | Duplicação de custo e dados |
+| Criar nova plataforma sem avaliar o SAP | Duplicação de custo, dados, integrações e governança |
 | Usar dados reais sensíveis | Risco regulatório e de segurança |
 | Tratar hipóteses como requisitos | Arquitetura desalinhada |
 
@@ -214,8 +215,9 @@ A solução candidata deve:
 
 ### Tecnologia
 
-- Qual ERP é utilizado?
-- Quais módulos e APIs estão disponíveis?
+- O ERP utilizado é o **SAP**.
+- Qual versão está em uso: ECC, S/4HANA ou outra?
+- Quais módulos, APIs, licenças e extensões estão disponíveis?
 - Quais ferramentas já são licenciadas?
 - Quais restrições de infraestrutura existem?
 
