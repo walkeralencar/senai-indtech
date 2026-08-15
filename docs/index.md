@@ -17,6 +17,8 @@ status: ativo
 - [[mrd|MRD canônico]]
 - [[consolidacao-etapa-01|Consolidação da Etapa 01]]
 - [[hipoteses-de-ciclo|Hipóteses de Ciclo]]
+- [[design-system|Design System BlueGold Industrial]]
+- [Referência visual HTML](design-system.html)
 - [[fontes/transcricao-luciano-almeida|Fonte — depoimento de Luciano Almeida]]
 - [[fontes/mrd-utilizado-original|Fonte — MRD recebido]]
 - [[decisoes/README|Registro de decisões]]
@@ -60,4 +62,4 @@ flowchart LR
 - critérios de adoção;
 - seleção e validação do MVP;
 - riscos, segurança e conformidade;
-- narrativa e demonstração.
+- narrativa e demonstração com o design system consolidado.
