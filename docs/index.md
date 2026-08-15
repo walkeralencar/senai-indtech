@@ -14,6 +14,7 @@ status: ativo
 ## Contexto principal
 
 - [[desafios|Desafio Geolab]]
+- [[mrd-preliminar|MRD preliminar]]
 - [[fontes/transcricao-luciano-almeida|Fonte — depoimento de Luciano Almeida]]
 - [[decisoes/README|Registro de decisões]]
 - [[../tasks/README|Backlog e tarefas]]
@@ -21,7 +22,9 @@ status: ativo
 
 ## Estado atual
 
-O repositório está na fase de **descoberta e estruturação do problema**. O desafio da Geolab é digitalizar processos de backoffice conciliando três resultados:
+O repositório está na fase de **descoberta e estruturação do problema**. As informações da transcrição foram consolidadas em um MRD preliminar, ainda sujeito a validação.
+
+O desafio da Geolab é digitalizar processos de backoffice conciliando três resultados:
 
 1. eficiência operacional;
 2. adoção pelo cliente interno;
@@ -44,7 +47,7 @@ flowchart LR
 ## Próximas áreas a estruturar
 
 - critérios e restrições do hackathon;
-- MRD resumido;
+- validação do MRD;
 - stakeholders e usuários;
 - processos candidatos;
 - baseline operacional e econômico;
