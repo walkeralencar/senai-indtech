@@ -17,6 +17,8 @@ Este repositório adota uma abordagem **agentic-first**: contexto, decisões, ta
 │   ├── desafios.md            # Desafios industriais transcritos e estruturados
 │   ├── mrd.md                 # MRD canônico
 │   ├── consolidacao-etapa-01.md # Consolidação dos artefatos da etapa
+│   ├── design-system.md        # Tokens, princípios e componentes
+│   ├── design-system.html      # Referência visual navegável
 │   ├── fontes/                # Evidências e insumos preservados
 │   └── decisoes/
 │       └── README.md          # Registro de decisões
@@ -32,6 +34,8 @@ Este repositório adota uma abordagem **agentic-first**: contexto, decisões, ta
 - [[docs/desafios|Desafios industriais]]
 - [[docs/mrd|MRD canônico]]
 - [[docs/consolidacao-etapa-01|Consolidação da Etapa 01]]
+- [[docs/design-system|Design System]]
+- [Referência visual HTML](docs/design-system.html)
 - [[docs/decisoes/README|Decisões]]
 - [[tasks/README|Backlog]]
 - [[prompts/README|Prompts]]
