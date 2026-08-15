@@ -47,41 +47,33 @@ Esses conteúdos melhoram a visão do problema, mas ainda não comprovam qual pr
 | [[fontes/etapa-01/05-desenvolvimento-de-generico|Desenvolvimento de genérico]] | Segundo fluxo, custos, prazos e contingências | Separado do ciclo operacional |
 | [[fontes/etapa-01/06-linha-do-tempo-simples|Linha do tempo simples]] | Narrativa acessível das passagens de bastão | Mantida como material de comunicação |
 
-## 3. Dois contextos que devem permanecer separados
+## 3. Duas hipóteses de ciclo
 
-### Contexto A — fluxo integrado descrito como produto já registrado
+A interpretação atual da equipe está detalhada em [[hipoteses-de-ciclo|Hipóteses de Ciclo]].
 
-O material apresenta uma cadeia de sete etapas:
+### Hipótese A — desenvolvimento de um produto
 
-1. compras;
-2. almoxarifado;
-3. farmacotécnico;
-4. desenvolvimento analítico;
-5. controle de qualidade;
-6. garantia da qualidade;
-7. produção.
+Representa o ciclo mais longo e de maior investimento: prospecção, desenvolvimento farmacotécnico e analítico, estudos, dossiê, análise da Anvisa e transferência para produção.
 
-O artefato atribui ao ciclo:
+Referências recebidas:
 
-- duração atual de **8 a 14 meses**;
-- custo atual de **R$ 1,0 a 1,4 milhão**;
-- redução estimada para **5,6 a 10 meses**;
-- custo futuro estimado de **R$ 890 mil a R$ 1,247 milhão**.
+- aproximadamente **48 meses**;
+- aproximadamente **R$ 10 milhões**;
+- 24 meses internos e 24 meses de análise regulatória como referência;
+- digitalização atuando principalmente sobre integração, evidências, versões, prontidão do dossiê e resposta a exigências.
+
+### Hipótese B — produção de lote de produto conhecido
+
+Representa o ciclo operacional de um produto cuja formulação e método já são conhecidos: materiais, recebimento, análise, programação, fabricação, revisão e liberação do lote.
+
+Referências recebidas:
+
+- **8 a 14 meses**;
+- **R$ 1,0 a 1,4 milhão**;
+- digitalização atuando sobre espera, papel, redigitação, aprovações, visibilidade, registro do lote e integração com SAP.
 
 > [!warning] Validação necessária
-> Embora o material chame esse contexto de “produto já registrado”, ele inclui desenvolvimento farmacotécnico e analítico. É necessário confirmar se representa fabricação recorrente, alteração pós-registro, transferência, lançamento ou outro tipo de ciclo.
-
-### Contexto B — desenvolvimento de genérico do zero
-
-O material apresenta:
-
-- ciclo total aproximado de **48 meses**;
-- cerca de **24 meses internos**;
-- cerca de **24 meses de análise na Anvisa**;
-- custo total informado de aproximadamente **R$ 10 milhões**;
-- meta proposta de submissão nos meses **19–20**, mantendo o mês 24 como limite interno.
-
-Esses números pertencem a desenvolvimento de produto e não devem ser usados como baseline do processo operacional anterior.
+> A distinção está contextualizada, mas continua como hipótese. A Geolab deve confirmar o início e o fim de cada ciclo, as áreas participantes e se o intervalo de 8 a 14 meses representa lote rotineiro, lançamento, transferência ou mudança pós-registro.
 
 ## 4. Classificação das informações
 
@@ -260,6 +252,7 @@ Os artefatos aumentaram a clareza da visão e produziram candidatos de MVP, mas 
 ## Relacionamentos
 
 - [[mrd|MRD canônico]]
+- [[hipoteses-de-ciclo|Hipóteses de Ciclo]]
 - [[desafios|Desafio Geolab]]
 - [[fontes/transcricao-luciano-almeida|Transcrição]]
 - [[../tasks/README|Backlog]]
